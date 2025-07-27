@@ -1,2 +1,26 @@
 # Binloader-Module-Qucick-Package-Manager
 an android package manager with quickly freezing / unfreezing ability
+# Usage
+ QPM - Android Quick Package Manager"
+ Usage: qpm [operation] [parameter1] [...2]"
+ Parameter defines:"
+    spn - short package name is specified by user, it related to a full package name."
+    rpn - real package name of a android package, such as com.android.phone."
+    pgn - package group name is specified by user, it contains a bunch of spns."
+ Operations:"
+    auto [spn] - Set specified package to opposed state."
+    ag [pgn] - Set specified group to opposed state."
+    ena [spn] - Set package state as enable."
+    disa [spn] - Set package state as disable."
+    addgrp [pgn] - Add a new package group using specified name."
+    addcfg [pgn] [spn] [fpn] - Add a package into exist group."
+    rmcfg [pgn] [spn] - Remove a package config in group."
+    rmgrp [pgn] - Remove a group and its contents."
+    lsgrp - List all groups."
+    dg [pgn] - Disable the whole package group."
+    eg [pgn] - Enable the whole package group."
+    catcfg [pgn] [spn] - display full package name of a config."
+    rngrp [old_pgn] [new_pgn] - Rename a package group."
+    rncfg [pgn] [old_spn] [new_spn] - Rename a short package config."
+    lscfg [pgn] - List configs in group."
+ 
