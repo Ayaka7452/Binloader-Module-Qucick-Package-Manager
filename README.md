@@ -1,7 +1,7 @@
 # Binloader-Module-Qucick-Package-Manager
 an android package manager with quickly freezing / unfreezing ability
 # Usage
- QPM - Android Quick Package Manager"
+ QPM - Android Quick Package Manager"<br>
  Usage: qpm [operation] [parameter1] [...2]"
  Parameter defines:"
     spn - short package name is specified by user, it related to a full package name."
