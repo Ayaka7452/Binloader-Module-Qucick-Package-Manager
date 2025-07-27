@@ -1,4 +1,4 @@
-# Binloader-Module-Qucick-Package-Manager
+# Intro
 an android package manager with quickly freezing / unfreezing ability
 # Usage
  QPM - Android Quick Package Manager<br>
